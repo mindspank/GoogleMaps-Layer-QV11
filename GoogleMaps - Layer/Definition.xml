@@ -1,0 +1,14 @@
+<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="GoogleMaps - Layer" Description="Plot layers and markers" PageHeight="200000">
+	<Dimension Label="Latitude" Initial="" DropTarget="Latitude"/>
+	<Dimension Label="Longitude" Initial="" DropTarget="Longitude"/>
+	<Measurement Label="Measurement" Initial="Sum(lat)"/>
+	<Measurement Label="Popup Contents" Initial="Sum(lat)"/>
+	<Measurement Label="Circle Color" Initial="Sum(lat)"/>
+	<Text Label="Layer" Type="text" Initial="" Expression=""/>
+	<Text Label="Circle Opacity" Type="text" Initial="" Expression=""/>
+	<Text Label="Circle Stroke Color" Type="text" Initial="" Expression=""/>
+	<Text Label="Circle Stroke Opacity " Type="text" Initial="" Expression=""/>
+	<Text Label="Circle Stroke Weight " Type="text" Initial="" Expression=""/>
+	<Initiate Name="Chart.Dimension.0.SuppressNull" value="1"/>
+	<Initiate Name="Chart.Dimension.1.SuppressNull" value="1"/>
+</ExtensionObject>
